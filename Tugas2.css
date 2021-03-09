@@ -1,0 +1,91 @@
+body {
+	background-color: #CCDDCC; 
+}
+
+.badan {
+	max-width: 1080px;
+    margin: 20px auto;
+    background-color: #CFCCFF;
+    
+ 	padding: 15px;
+    overflow: hidden;
+}
+
+.badan header {
+	text-align: center;
+	padding: 20px;
+}
+
+.menu_navigasi {
+	
+}
+
+.menu_navigasi a {
+	margin: 5px;
+	color: #80471c;
+}
+
+.menu_navigasi ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #c1beea;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.menu_navigasi li{
+	float: left;
+}
+
+.menu_navigasi li a:hover {
+	background-color:salmon;
+    transition-duration: 0.9s;
+}
+
+.isi {
+	width: 530px;
+    margin-right: 10px;
+    float: left;
+}
+.kotak {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.kotak1 {
+	border: 1px solid gainsboro;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: grey;
+}
+.kotak1 h4 {
+	background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 13px;
+}
+.kotak1 li {
+	margin: 3px;
+}
+.sidebar_kiri {
+	width: 250px;
+    margin-right: 10px;
+    float: left;
+}
+.kotak2 {
+	background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 13px;
+}
+.kotak2 li {
+	margin: 4px;
+}
+.sidebar_kanan {
+	width: 250px;
+    background-color: grey;
+    float: left;
+}
